@@ -1,6 +1,8 @@
 (menu-bar-mode -1)
 (tool-bar-mode -1)
 
+(set-default-font "Hack-12")
+
 (require 'cl-lib)
 
 (require 'package)
