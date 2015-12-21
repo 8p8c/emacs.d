@@ -19,3 +19,7 @@
 (require 'whitespace)
 (setq-default whitespace-style '(face tabs spaces trailing space-before-tab newline empty space-after-tab space-mark tab-mark newline-mark))
 (global-whitespace-mode 1)
+
+(require 'fill-column-indicator)
+(define-globalized-minor-mode global-fci-mode fci-mode (lambda () (fci-mode 1)))
+(global-fci-mode 1)
