@@ -1,0 +1,11 @@
+= My Emacs configuration
+
+Just store my Emacs configuration to make it available on all PCs I use.
+
+== I prefer
+
+* No menu bar
+* No tool bar
+* Hack font
+* Smart tabs -- tabs for indentation and whitespaces for alignment
+* Whitespace
