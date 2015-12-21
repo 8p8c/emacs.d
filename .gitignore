@@ -1,2 +1,5 @@
 # Ignore Emacs backup files
 *~
+
+# Ignore package files
+elpa
